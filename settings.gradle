@@ -1,0 +1,5 @@
+rootProject.name = 'coursework_1'
+include 'server'
+include 'client'
+include 'logging'
+include 'logging'
