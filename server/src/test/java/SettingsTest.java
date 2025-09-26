@@ -4,10 +4,10 @@ import org.junit.jupiter.api.Test;
 import java.io.File;
 
 public class SettingsTest {
+    final String SETTINGS_FILE_PATH = "test_settings.json";
+
     @Test
     public void check() throws Exception {
-        final String SETTINGS_FILE_PATH = "test_settings.json";
-
         Settings written = new Settings();
 
         written.port = 999;
