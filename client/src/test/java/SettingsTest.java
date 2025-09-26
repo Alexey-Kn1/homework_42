@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import java.io.File;
 
 public class SettingsTest {
-    final String SETTINGS_FILE_PATH = "test_settings.json";
+    final String SETTINGS_FILE_PATH = "./src/test/resources/test_settings.json";
 
     @Test
     public void check() throws Exception {

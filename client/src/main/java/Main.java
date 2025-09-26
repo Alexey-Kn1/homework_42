@@ -9,7 +9,7 @@ import java.util.Scanner;
  */
 
 public class Main {
-    private static final String SETTINGS_FILE_PATH = "client_settings.json";
+    private static final String SETTINGS_FILE_PATH = "./client/src/main/resources/client_settings.json";
 
     public static void main(String[] args) {
         Settings s;

@@ -1,0 +1,4 @@
+{
+  "port": 4444,
+  "logFilePath": "./server/src/main/resources/log.txt"
+}

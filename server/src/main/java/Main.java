@@ -3,7 +3,7 @@ import java.net.ServerSocket;
 import java.util.Scanner;
 
 public class Main {
-    private static final String SETTINGS_FILE_PATH = "server_settings.json";
+    private static final String SETTINGS_FILE_PATH = "./server/src/main/resources/server_settings.json";
 
     public static void main(String[] args) throws InterruptedException {
         Settings s;
